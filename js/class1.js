@@ -8,7 +8,7 @@ class Root {
         this.speedY = Math.random() * 4 - 1; // velocidad a la que se dispersa en y
         this.maxSize = Math.random() * 7 + 2; //tamañno maximo
         this.size = Math.random() * 0.1; //tamaño inicial
-        this.angle = Math.random() * 6.2;
+        this.angle = Math.random() * 6.3;
     }
 //actualizacion poara dibujar 
     update() {
